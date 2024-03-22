@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="Imagens/Senac logo.png">
+    <title>E-Commerce SENAC/DF e Amazon</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <i id="icone" class="fa-solid fa-cash-register"></i></span>E-Commerce SENAC/DF e Amazon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+            aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="textoNavbar">
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Início</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Promoções <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Informações ao Consumidor</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Preços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Destaques</a>
+                </li>
+                <form class="form-inline">
+                    <input type="text" id="barra-pesq" class="form-control mr-sm-2" placeholder="Pesquisar">
+                    <button class="btn btn-primary my-2 my-sm-0" id="btn-pesq" type="submit">Pesquisar</button>
+                    <a href="login.html" class="btn btn-sm btn-outline-secondary" type="button" id="btn-login">Login</a>
+                </form>
+            </ul>
+        </div>
+    </nav>
+
+    <ul id="lista" class="nav flex-column" class="list-lateral">
+        <li class="nav-item">
+            <a class="nav-link active" href="eletronicos.html">Eletrônicos</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">E-books</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Automóveis</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Cozinha</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Computadores</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Pesca</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Móveis</a>
+            </li>
+        </li>
+    </ul>
+
+    <div class="slidesEletronicos">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="slideIMG" src="Imagens/banner eletronicos.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="slideIMG" src="Imagens/banner 2.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="slideIMG" src="Imagens/banner 3" alt="Terceiro Slide">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="produtosEletronicos">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-sm">
+                        <img class="card-img-to" src="Imagens/Iphone 15.png" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Iphone 15 (128GB) Preto</h5>
+                            <p class="card-text">Em até 12x de R$740,74 sem juros.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao
+                                        carrinho</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+                                </div>
+                                <small class="text-muted">R$6.698</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-sm">
+                        <img class="card-img-top" src="Imagens/S23.png" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Samsung Galaxy S23 (128GB) Creme</h5>
+                            <p class="card-text">Em até 10x de R$379,90 sem juros.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao
+                                        carrinho</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+                                </div>
+                                <small class="text-muted">R$3.799</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-sm">
+                        <img class="card-img-top" src="Imagens/Tab S9 FE.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Galaxy Tab S9 FE</h5>
+                            <p class="card-text">Em até 10x de R$329,90 sem juros.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao
+                                        carrinho</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+                                </div>
+                                <small class="text-muted">R$3.299</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-sm">
+                        <img class="card-img-top" src="Imagens/MacBook AIR.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">MacBook AIR</h5>
+                            <p class="card-text">Em até 12x de R$624,99 sem juros.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao
+                                        carrinho</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+                                </div>
+                                <small class="text-muted">R$7.499</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-sm">
+                        <img class="card-img-top" src="Imagens/xbox controller.jpg" style="height: 220px; width: 430px;" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title"> Controle sem Fio Xbox - Pulse Red</h5>
+                            <p class="card-text">Em até 8x R$ 55,56 sem juros.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao
+                                        carrinho</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+                                </div>
+                                <small class="text-muted">R$445</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-sm">
+                        <img class="card-img-top" src="Imagens/AORUS elite].jpg" style="height: 220px; width: 430px;" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Placa Mãe Gigabyte B550M AORUS Elite</h5>
+                            <p class="card-text">Em até 12x de R$624,99 sem juros.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao
+                                        carrinho</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+                                </div>
+                                <small class="text-muted">R$7.499</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-sm">
+                        <img class="card-img-top" src="Imagens/Ryzen 7.jpg" style="height: 220px; width: 430px;" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Ryzen 7 3800XT</h5>
+                            <p class="card-text">Em até 10x R$ 361,04 sem juros.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao
+                                        carrinho</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+                                </div>
+                                <small class="text-muted">R$3.609</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-3 shadow-sm">
+                        <img class="card-img-top"  style="height: 220px; width: 430px;" src="Imagens/Multilaser m201.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                            <h5 class="card-title">Multilaser MO251</h5>
+                            <p class="card-text">R$ 5,97 de frete.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao
+                                        carrinho</button>
+                                    <button type="button" class="btn btn-sm btn-outline-secondary">Detalhes</button>
+                                </div>
+                                <small class="text-muted">R$34.99</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adicione mais colunas para mais produtos -->
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9842a6bc12.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

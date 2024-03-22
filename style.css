@@ -1,0 +1,141 @@
+body {
+
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 212, 255, 1));
+}
+
+
+#barra-pesq {
+    width: 500px;
+    margin-left: 680px
+}
+
+#btn-login {
+
+    margin-left: 5px;
+}
+
+#btn-pesq:hover {
+    background-color: rgba(0, 212, 255, 1);
+    color: #000;
+}
+
+.box-login {
+
+    margin-top: 10%;
+    margin-left: 38%;
+    position: absolute;
+    padding: 100px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.box {
+
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#btn-pag-login:hover {
+
+    background-color: rgba(0, 212, 255, 1);
+    color: white;
+}
+
+#btn-pag-login{
+
+    padding: auto;
+}
+
+#card-login {
+    width: 50px;
+    text-align: center;
+    border: none;
+    margin-left: 135px;
+}
+
+#icone {
+
+    margin-left: 230%;
+}
+
+#lista{
+
+    background: none;
+    position: absolute;
+}
+
+
+.slides{
+
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 30px;
+
+}
+
+.slideIMG{
+
+    width: 1685px;
+    height: 500px;
+
+}
+
+.slidesEletronicos{
+
+    width: 1650px;
+    height: 550px;
+    margin-left: 200px;
+    margin-top: 10px;
+
+    
+}
+
+
+.produtos{
+
+    float: left;
+    position: absolute;
+    background: none;
+    margin-top: 550px;
+    margin-left: 10px;
+    padding: auto;
+    align-items: center;
+}
+
+.produtosEletronicos{
+
+    position: relative;
+    position: absolute;
+    background: none;
+    margin-left: 10px;
+    padding: auto;
+}
+
+
+/* Estilizando as setas de navegação */
+.carousel-control-prev, .carousel-control-next {
+    background-color: transparent; /* Remove o fundo */
+    border: none; /* Remove a borda */
+    font-size: 2rem; /* Ajusta o tamanho do ícone */
+    color: #000; /* Cor do ícone */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: url('path/to/your-icon.png'); /* Substitui o ícone padrão */
+    background-size: contain;
+}
+
+/* Estilizando as imagens */
+.carousel-item img {
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilizando os indicadores de slide (opcional) */
+.carousel-indicators li {
+    background-color: #000; /* Cor dos indicadores */
+}
+
+.carousel-indicators .active {
+    background-color: #FFF; /* Cor do indicador ativo */
+}
